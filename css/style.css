@@ -1,13 +1,13 @@
-body{
+*{
 	margin: 0%;
-	padding: 0%;
+	padding: 0;
 }
 
 .header{
 	background-image: url(../img/dsfsdfsdfds.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 670px;
+	min-height: 670px;
 }
 
 .logo{
@@ -33,11 +33,6 @@ body{
 .jevelink{
 	padding: 40px 30px;
 	display: inline-block;
-}
-
-.jevelink:hover{
-	border-radius: 0 60%;
-	background-color: rgb(153, 153, 153);
 }
 
 .link{
@@ -71,8 +66,85 @@ body{
 	font-weight: 500;
 	text-align: left;
 	clear: both;
+	margin-block-end: 1.3em;
 }
 
-.inkom{
-	
+.now{
+	display: flex;
+	align-items: flex-start;
+	max-width: 700px;
+	height: 106px;
+	background-color: rgb(34, 132, 243);
+	font-size: 45px;
+	justify-content: center;
+	color: #fff;
+}
+
+.img{
+	width: 66px;
+	height: 66px;
+	padding: 0px 50px 0 0;
+}
+
+.main{
+	margin-left: 100px;
+	max-width: 900px;
+	background-color: rgb(202, 198, 198);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contrary{
+	display: flex;
+}
+
+.color1{
+	background-image: url(../img/Shape\ 3.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	background-color:  #5094f2;
+	width: 137px;
+	height: 136px;
+}
+
+.color2{
+	background-image: url(../img/Shape\ 6.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	background-color:  #d94748;
+	width: 137px;
+	height: 136px;
+}
+
+.color3{
+	background-image: url(../img/Shape\ 5.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	background-color:  #ebbb11;
+	width: 137px;
+	height: 136px;
+}
+
+.imeg{
+	display: inline-block;
+	align-self: center;
+	/* margin-left: 30%;
+	margin-top: 20%; */
+}
+
+.popular{
+	color:  #5094f2;
+	font-size: 34.13px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	margin-block-start: 1em;
+	margin-block-end: 0.1em;
+}
+
+.piece{
+	color:  #909090;
+	font-size: 19.34px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
 }
